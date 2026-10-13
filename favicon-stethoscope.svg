@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle in deep rich mocha -->
+  <circle cx="50" cy="50" r="48" fill="#351E06"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#8D7E6D" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Earpieces / Binaural -->
+  <path d="M 32 20 L 32 30 C 32 44 42 48 50 48 C 58 48 68 44 68 30 L 68 20" 
+        fill="none" stroke="#FAF7F2" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Ear tips -->
+  <circle cx="32" cy="20" r="4" fill="#DFB09E"/>
+  <circle cx="68" cy="20" r="4" fill="#DFB09E"/>
+  
+  <!-- Connecting spring -->
+  <line x1="38" y1="36" x2="62" y2="36" stroke="#8D7E6D" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Tubing looping down -->
+  <path d="M 50 48 L 50 56 C 50 72 32 72 32 60 C 32 52 56 54 62 68 L 62 72" 
+        fill="none" stroke="#DFB09E" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+        
+  <!-- Chestpiece / Diaphragm -->
+  <circle cx="62" cy="76" r="8" fill="#FAF7F2"/>
+  <circle cx="62" cy="76" r="4.5" fill="#351E06"/>
+</svg>

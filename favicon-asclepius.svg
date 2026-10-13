@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EED9C4"/>
+      <stop offset="100%" stop-color="#CBB296"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle in deep rich mocha -->
+  <circle cx="50" cy="50" r="48" fill="#351E06"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#8D7E6D" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Central Rod / Staff of Asclepius -->
+  <rect x="47.5" y="15" width="5" height="70" rx="2.5" fill="url(#gold)"/>
+  <circle cx="50" cy="15" r="4.5" fill="url(#gold)"/>
+  <polygon points="46,85 54,85 50,89" fill="url(#gold)"/>
+  
+  <!-- Serpent coiling around staff -->
+  <!-- Loop 1 (bottom) -->
+  <path d="M 50 78 C 34 76 33 66 49 63 C 65 60 67 48 51 45 C 35 42 35 30 50 25 C 56 23 60 25 58 29 C 56 32 52 32 50 32"
+        fill="none" stroke="#FAF7F2" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        
+  <!-- Snake head detail -->
+  <circle cx="57" cy="27" r="1.5" fill="#351E06"/>
+</svg>
