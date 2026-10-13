@@ -28,7 +28,7 @@ export const ContactModal: FC<ContactModalProps> = ({
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    const text = `פנייה מאתר ד"ר נעם צרויה:
+    const text = `פנייה מאתר ד"ר נעם בן צרויה:
 שם: ${formData.name}
 טלפון: ${formData.phone}
 נושא: ${formData.topic}
@@ -56,7 +56,7 @@ export const ContactModal: FC<ContactModalProps> = ({
             יצירת קשר עם המרפאה
           </h3>
           <p className="text-base text-[#5A524A] font-light">
-            השאירו פרטים קצרים וד"ר צרויה תחזור אליכם בהקדם.
+            השאירו פרטים קצרים וד"ר בן צרויה תחזור אליכם בהקדם.
           </p>
         </div>
 

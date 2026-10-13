@@ -21,7 +21,7 @@ export const ContactSection: FC<ContactSectionProps> = ({ initialService }) => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    const text = `הודעה מאתר ד"ר נעם צרויה:
+    const text = `הודעה מאתר ד"ר נעם בן צרויה:
 שם: ${formData.name}
 טלפון: ${formData.phone}
 דוא"ל: ${formData.email || 'לא צוין'}
@@ -131,7 +131,7 @@ export const ContactSection: FC<ContactSectionProps> = ({ initialService }) => {
                     ההודעה הועברה בהצלחה
                   </div>
                   <div className="text-base text-[#5A524A] font-light">
-                    ד"ר נעם צרויה תיצור איתך קשר בהקדם.
+                    ד"ר נעם בן צרויה תיצור איתך קשר בהקדם.
                   </div>
                 </div>
               ) : (

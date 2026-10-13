@@ -24,7 +24,7 @@ export const AboutSection: FC = () => {
             <div className="w-full max-w-md rounded-[28px] overflow-hidden bg-white shadow-sm border border-[#E8E0D5]">
               <img
                 src="./dr-noam.jpg"
-                alt={`ד"ר נעם צרויה - ${siteContent.doctor.title}`}
+                alt={`ד"ר נעם בן צרויה - ${siteContent.doctor.title}`}
                 className="w-full h-auto object-cover aspect-[4/4.5]"
                 width="480"
                 height="540"

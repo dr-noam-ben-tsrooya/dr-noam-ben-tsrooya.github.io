@@ -116,7 +116,7 @@ export const Footer: FC = () => {
           {/* פרטי התקשרות במרפאה */}
           <div className="lg:col-span-4 space-y-3">
             <h4 className="text-white font-bold text-base mb-3">
-              מרפאת ד"ר נעם צרויה
+              מרפאת ד"ר נעם בן צרויה
             </h4>
             <div className="space-y-3 text-sm text-[#C4B8A8]">
               <div className="flex items-start gap-2.5">
@@ -143,7 +143,7 @@ export const Footer: FC = () => {
         {/* שורת זכויות תחתונה */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#B5A898] text-center sm:text-right font-light">
           <div>
-            כל הזכויות שמורות © {currentYear} לד"ר נעם צרויה • רופאה מומחית ברפואה תעסוקתית
+            כל הזכויות שמורות © {currentYear} לד"ר נעם בן צרויה • רופאה מומחית ברפואה תעסוקתית
           </div>
           <div>
             המידע המופיע באתר זה נועד להתרשמות כללית בלבד ואינו מהווה תחליף לייעוץ רפואי פרטני.

@@ -166,7 +166,7 @@ export const ServicesSection: FC<ServicesSectionProps> = ({ onSelectServiceForCo
 
               <a
                 href={`https://wa.me/${siteContent.doctor.whatsappNumber}?text=${encodeURIComponent(
-                  `שלום ד"ר צרויה, אשמח להתייעץ לגבי ${activeModalService.title}.`
+                  `שלום ד"ר בן צרויה, אשמח להתייעץ לגבי ${activeModalService.title}.`
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"

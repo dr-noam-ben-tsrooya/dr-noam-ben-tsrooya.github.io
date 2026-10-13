@@ -137,7 +137,7 @@ export const AccessibilityModal: FC<AccessibilityModalProps> = ({ isOpen, onClos
 
         <div className="p-4 rounded-2xl bg-[#EFEAE1] text-xs text-[#4A433D] leading-relaxed mb-6">
           <span className="font-bold">הצהרת נגישות: </span>
-          מרפאת ד"ר נעם צרויה מחויבת להנגשת שירותיה באופן שוויוני ומכבד. האתר מותאם לתקני נגישות ומאפשר גלישה נגישה במקלדת וקוראי מסך.
+          מרפאת ד"ר נעם בן צרויה מחויבת להנגשת שירותיה באופן שוויוני ומכבד. האתר מותאם לתקני נגישות ומאפשר גלישה נגישה במקלדת וקוראי מסך.
         </div>
 
         <div className="flex items-center justify-between pt-4 border-t border-[#E8E0D5]">
