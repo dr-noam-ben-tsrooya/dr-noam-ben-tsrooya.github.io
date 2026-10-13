@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #FAF7F2;
+    --bg-sand: #EFEAE1;
+    --bg-sand-light: #F6F2EB;
+    --color-espresso: #2E2824;
+    --color-mocha: #351E06;
+    --color-muted: #6B6259;
+    --color-taupe: #8D7E6D;
+    --color-clay: #DFB09E;
+    --font-hebrew: 'Assistant', 'Heebo', system-ui, sans-serif;
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 105px;
+    font-family: var(--font-hebrew);
+    background-color: var(--bg-canvas);
+    color: var(--color-espresso);
+  }
+
+  /* תמיכה אמיתית בהגדלת גופן נגישות בכל האתר */
+  html.font-large {
+    font-size: 19px !important;
+  }
+
+  html.font-xlarge {
+    font-size: 22px !important;
+  }
+
+  body {
+    direction: rtl;
+    text-align: right;
+    background-color: var(--bg-canvas);
+    color: var(--color-espresso);
+    font-family: var(--font-hebrew);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-hebrew);
+    color: var(--color-espresso);
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-hebrew {
+  font-family: 'Assistant', 'Heebo', sans-serif;
+}
+
+/* כפתורי פיל מעודנים בסגנון שיר בלום ויעל אורן */
+.btn-pill-sand {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #EFEAE1;
+  color: #2E2824;
+  border: 1px dashed #351E06;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-pill-sand:hover {
+  background-color: #351E06;
+  color: #FFFFFF;
+  border-color: #351E06;
+}
+
+.btn-pill-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #351E06;
+  color: #FFFFFF;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-pill-dark:hover {
+  background-color: #1E1B18;
+  transform: translateY(-1px);
+}
+
+.btn-pill-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #FFFFFF;
+  color: #2E2824;
+  border: 1px solid #D8CFC4;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-pill-outline:hover {
+  background-color: #EFEAE1;
+  border-color: #8D7E6D;
+}
+
+/* קו מפריד עדין */
+.subtle-divider {
+  width: 70px;
+  height: 1.5px;
+  background-color: #351E06;
+}
+
+/* אקורדיון נקי */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* נגישות גבוהה */
+html.high-contrast,
+html.high-contrast body {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+html.high-contrast * {
+  background-color: transparent !important;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+html.high-contrast a,
+html.high-contrast button {
+  color: #FFFF00 !important;
+  text-decoration: underline !important;
+}
+
+html.underline-links a {
+  text-decoration: underline !important;
+}
